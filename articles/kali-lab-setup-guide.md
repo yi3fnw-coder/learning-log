@@ -167,23 +167,23 @@ VirtualBox のマニュアルや公式フォーラムでは：
  7.使用しないキーボードレイアウトを選択後 -Remove をクリックし削除
 ![alt text](/images/kali-lab-setup-guide/kl-keyboard-layout-english-remove.png)
  8.Use system defaults をオンにする
-![alt text](/images/kl-keyboard-layout-on.png)
+![alt text](/images/kali-lab-setup-guide/kl-keyboard-layout-on.png)
  9.ポップアップ画面で OK をクリック
-![alt text](/images/kl-keyboard-layout-ok.png)
+![alt text](/images/kali-lab-setup-guide/kl-keyboard-layout-ok.png)
  10.×close をクリック
-![alt text](/images/kl-keyboard-layout-close.png)
+![alt text](/images/kali-lab-setup-guide/kl-keyboard-layout-close.png)
 
 - TimeZoneの設定
  1.画面右上の時計を右クリック後 Properties をクリック
-![alt text](/images/tz-properties.png)
+![alt text](/images/kali-lab-setup-guide/tz-properties.png)
  2.Time and Date Settings をクリック
-![alt text](/images/tz-settings.png)
+![alt text](/images/kali-lab-setup-guide/tz-settings.png)
  3.Unlock をクリック
- ![alt text](/images/tz-settings-unlock.png)
+ ![alt text](/images/kali-lab-setup-guide/tz-settings-unlock.png)
  4.パスワードを入力後 Authenticate をクリック
- ![alt text](/images/tz-settings-password.png)
+ ![alt text](/images/kali-lab-setup-guide/tz-settings-password.png)
  5.Time Zone設定値をクリック
-![alt text](/images/tz-settings-america.png)
+![alt text](/images/kali-lab-setup-guide/tz-settings-america.png)
  6.Asia/Tokyo を選択後 ×Close をクリック
 ![alt text](/images/kali-lab-setup-guide/tz-settings-asia-tokyo.jpg)
  7.×Close をクリック
@@ -212,16 +212,16 @@ VirtualBox のマニュアルや公式フォーラムでは：
   sudo apt update
   ```
  
- 3.実行が完了し下記メッセージが表示されることを確認
- ![alt text](/images/kali-lab-setup-guide/sudo-apt-update.png)
- 4.以下のコマンドを実行
+   3.実行が完了し下記メッセージが表示されることを確認
+   ![alt text](/images/kali-lab-setup-guide/sudo-apt-update.png)
+   4.以下のコマンドを実行
  
   ```
   sudo apt -y upgrade
   ```
  
- 5.コマンドの実行が完了したことを確認
- ![alt text](/images/kali-lab-setup-guide/sudo-apt-y-upgrade.png)
+   5.コマンドの実行が完了したことを確認
+   ![alt text](/images/kali-lab-setup-guide/sudo-apt-y-upgrade.png)
 
 
 
