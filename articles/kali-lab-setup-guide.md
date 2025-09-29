@@ -14,7 +14,7 @@ published: false # 公開設定（falseにすると下書き）
 ## 概要
 - 目的：ローカルで安全にハッキングの練習ができるラボを作る。
 - 主な構成：ホストOS（Windows 11） + VirtualBox + Kali Linux
-- 時間目安：約1時間（環境やダウンロード速度に依存）。
+- 時間目安：約1～2時間（環境やダウンロード速度に依存）。
 
 
 ## セキュリティと法的注意
@@ -207,17 +207,22 @@ VirtualBox のマニュアルや公式フォーラムでは：
  1.左上の Terminal Emulatorアイコン をクリック
  ![alt text](/images/kali-lab-setup-guide/terminal-emulator-icon.png)
  2.以下のコマンドを実行
- ```
- sudo apt update
- ```
+ 
+  ```
+  sudo apt update
+  ```
+ 
  3.実行が完了し下記メッセージが表示されることを確認
  ![alt text](/images/kali-lab-setup-guide/sudo-apt-update.png)
  4.以下のコマンドを実行
- ```
- sudo apt -y upgrade
- ```
+ 
+  ```
+  sudo apt -y upgrade
+  ```
+ 
  5.コマンドの実行が完了したことを確認
  ![alt text](/images/kali-lab-setup-guide/sudo-apt-y-upgrade.png)
+
 
 
 **以上でハッキングラボ構築終了！**
