@@ -27,7 +27,6 @@ published: false # 公開設定（falseにすると下書き）
 - https://www.virtualbox.org/wiki/Downloads にアクセス
 - Windows hosts をクリックしインストーラーをダウンロード
   ![alt text](VirtualBoxWindowshosts.png)
-  ![alt text](VirtualBoxWindowshosts-1.png)
 - Accept and download をクリックしExtension Packもダウンロード
   ![alt text](VirtualBoxWindowsAcceptAndDownload.png)
 - ダウンロードした VirtualBox-7.2.2-170484-Win.exe を実行
