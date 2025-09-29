@@ -6,4 +6,4 @@ topics: ["KaliLinux","VirtualBox","ホワイトハッカー"] # タグ。["markd
 published: false # 公開設定（falseにすると下書き）
 ---
 
-![ブリティッシュショートヘア](./images/gon.jpg)
+![ブリティッシュショートヘア](/images/gon.jpg)
