@@ -38,14 +38,14 @@ published: false # 公開設定（falseにすると下書き）
 ### 2. Kali Linux のtorrentファイルをダウンロード
 - https://www.kali.org/get-kali/#kali-platforms にアクセス
 - Virtual Machines をクリック
-  ![KaliLinux公式ダウンロード](./images/KaliLinux.png)
+  ![KaliLinux公式ダウンロード](/images/kl.png)
 - VirtualBoxのtorrent をクリックし kali-linux-2025.3-virtualbox-amd64.7z.torrent をダウンロード
-  ![KaliLinuxTorrentファイルダウンロード](./images/KaliLinuxTorrent.png)
+  ![KaliLinuxTorrentファイルダウンロード](/images/kl-torrent.png)
 
 ### 3. uTorrentのインストール
 - https://www.utorrent.com/intl/ja/downloads/win/ にアクセス
 - uTorrent Classicの無料ダウンロード をクリック
-  ![uTorrent公式ダウンロード](./images/uTorrent.png)
+  ![uTorrent公式ダウンロード](/images/ut.png)
 - ダウンロードした utorrent_installer.exe を実行
 - Avast は Skip All をクリック
 - Choose Install Options はすべてチェックを外しました(お好みで)
@@ -74,16 +74,15 @@ uTorrentが常時シード状態となることや、アプリをアップデー
 ### 6. Virtual Disk Imageの展開
 - ダウンロードした kali-linux-2025.3-virtualbox-amd64.7z を展開する
 
-:::message alart
+:::message alert
 Windows標準機能では.7zファイルを扱えずエラーとなるため、7-zipを使用しました
-![0x8000FFFF:致命的なエラー](./images/7zError.png)
-*致命的なエラー*
+![0x8000FFFF:致命的なエラー](/images/7z-error.png)
 :::
 
 ### 7. VirtualBoxに仮想マシン(Kali Linux)を追加する
 - Oracle VirtualBoxマネージャー を開く
 - 開く をクリック
-![VirtualBoxマネージャー](./images/VirtualBoxManagerOpen.png)
+![VirtualBoxマネージャー](/images/vb-manager-open.png)
 - 展開した kali-linux-2025.3-virtualbox-amd64.vbox を開く
 - 取り込まれたマシンの 設定 をクリック
 
@@ -152,71 +151,71 @@ VirtualBox のマニュアルや公式フォーラムでは：
 ### 8. 仮想マシン(Kali Linux)のチューニング
 - 日本語キーボードの設定
  1.左上のメニューボタン→Usual Applications→Settings→Keyboard をクリック
- ![alt text](./images/KaliLinuxKeyboard.png)
+ ![alt text](/images/kl-keyboard.png)
  2.Layout タブをクリック
- ![alt text](./images/KaliLinuxKeyboardLayout-1.png)
+ ![alt text](/images/kl-keyboard-layout.png)
  3.Use system defaults をオフにする
- ![alt text](./images/KaliLinuxKeyboardLayoutOff-1.png)
+ ![alt text](/images/kl-keyboard-layout-off.png)
  4.+Add をクリック
- ![alt text](./images/KaliLinuxKeyboardLayoutAdd-1.png)
+ ![alt text](/images/kl-keyboard-layout-add.png)
  5.Japanese を選択し OK をクリック
- ![alt text](./images/KaliLinuxKeyboardLayoutJapanese.png)
+ ![alt text](/images/kl-keyboard-layout-japanese.png)
  6.Japanese を選択後 ↑ をクリックし、Japaneseを一番上に移動する
-![alt text](./images/KaliLinuxKeyboardLayoutJapaneseUp.png)
+![alt text](/images/kl-keyboard-layout-japanese-up.png)
  7.使用しないキーボードレイアウトを選択後 -Remove をクリックし削除
-![alt text](./images/KaliLinuxKeyboardLayoutEnglishRemove.png)
+![alt text](/images/kl-keyboard-layout-english-remove.png)
  8.Use system defaults をオンにする
-![alt text](./images/KaliLinuxKeyboardLayoutOn.png)
+![alt text](/images/kl-keyboard-layout-on.png)
  9.ポップアップ画面で OK をクリック
-![alt text](./images/KaliLinuxKeyboardLayoutOK.png)
+![alt text](/images/kl-keyboard-layout-ok.png)
  10.×close をクリック
-![alt text](./images/KaliLinuxKeyboardLayoutClose.png)
+![alt text](/images/kl-keyboard-layout-close.png)
 
 - TimeZoneの設定
  1.画面右上の時計を右クリック後 Properties をクリック
-![alt text](./images/TimeZoneProperties.png)
+![alt text](/images/tz-properties.png)
  2.Time and Date Settings をクリック
-![alt text](./images/TimeZoneSettings.png)
+![alt text](/images/tz-settings.png)
  3.Unlock をクリック
- ![alt text](./images/TimeZoneSettingsUnlock.png)
+ ![alt text](/images/tz-settings-unlock.png)
  4.パスワードを入力後 Authenticate をクリック
- ![alt text](./images/TimeZoneSettingsPassword.png)
+ ![alt text](/images/tz-settings-password.png)
  5.Time Zone設定値をクリック
-![alt text](./images/TimeZoneSettingsAmerica.png)
+![alt text](/images/tz-settings-america.png)
  6.Asia/Tokyo を選択後 ×Close をクリック
-![alt text](./images/TimeZoneSettingsAsiaTokyo.jpg)
+![alt text](/images/tz-settings-asia-tokyo.jpg)
  7.×Close をクリック
-![alt text](./images/TimeZoneSettingsClose.png)
+![alt text](/images/tz-settings-close.png)
  8.×Close をクリック
- ![alt text](./images/TimeZoneSettingsEnd.png)
+ ![alt text](/images/tz-settings-end.png)
 - 電源設定
  1.左上のメニューボタン→Usual Applications→Settings→Power Manager をクリック
- ![alt text](./images/PowerManager.png)
+ ![alt text](/images/power-manager.png)
  2.Systemタブ をクリック
- ![alt text](./images/PowerManagerSystem.png)
+ ![alt text](/images/power-manager-system.png)
  3.When inactive for を Never にする(On battery、Plugged in共に)
- ![alt text](./images/PowerManagerWhenIactiveFor.png)
+ ![alt text](/images/power-manager-wheniactivefor.png)
  4.Displayタブ をクリック
- ![alt text](./images/PowerManagerDisplay.png)
+ ![alt text](/images/power-manager-display.png)
  5.Put to sleep after、Switch off after を Never にする(On battery、Plugged in共に)
- ![alt text](./images/PowerManagerDisplayNever.png)
+ ![alt text](/images/power-manager-display-never.png)
  6.×Close をクリック
- ![alt text](./images/PowerManagerClose.png)
+ ![alt text](/images/power-manager-close.png)
 - システムパッケージの更新
  1.左上の Terminal Emulatorアイコン をクリック
- ![alt text](./images/TerminalEmulatorIcon.png)
+ ![alt text](/images/terminal-emulator-icon.png)
  2.以下のコマンドを実行
  ```
  sudo apt update
  ```
  3.実行が完了し下記メッセージが表示されることを確認
- ![alt text](./images/SudoAptUpdate.png)
+ ![alt text](/images/sudo-apt-update.png)
  4.以下のコマンドを実行
  ```
  sudo apt -y upgrade
  ```
  5.コマンドの実行が完了したことを確認
- ![alt text](./images/SudoAptYUpgrade.png)
+ ![alt text](/images/sudo-apt-y-upgrade.png)
 
 
 **以上でハッキングラボ構築終了！**
