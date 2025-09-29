@@ -26,7 +26,7 @@ published: false # 公開設定（falseにすると下書き）
 ### 1. VirtualBoxのインストール
 - https://www.virtualbox.org/wiki/Downloads にアクセス
 - Windows hosts をクリックしインストーラーをダウンロード
-  ![VirtualBox公式ダウンロード](/images/VirtualBoxWindowshosts.png)
+  ![VirtualBox公式ダウンロード](/learning-log/articles/images/VirtualBoxWindowshosts.png)
 - Accept and download をクリックしExtension Packもダウンロード
   ![VirtualBox拡張機能ダウンロード](./images/VirtualBoxWindowsAcceptAndDownload.png)
 - ダウンロードした VirtualBox-7.2.2-170484-Win.exe を実行
