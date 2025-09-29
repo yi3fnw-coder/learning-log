@@ -27,13 +27,13 @@ published: false # 公開設定（falseにすると下書き）
 - https://www.virtualbox.org/wiki/Downloads にアクセス
 - Windows hosts をクリックしインストーラーをダウンロード
 
-  ![VirtualBox公式ダウンロード](./images/vb-winhosts.png)
+  ![VirtualBox公式ダウンロード](/images/vb-winhosts.png)
 
 - Accept and download をクリックしExtension Packもダウンロード
-  ![VirtualBox拡張機能ダウンロード](./images/vb-win-download.png)
+  ![VirtualBox拡張機能ダウンロード](/images/vb-win-download.png)
 - ダウンロードした VirtualBox-7.2.2-170484-Win.exe を実行
 - VirtualBoxを起動しExtension Packもインストール
-  ![VirtualBox拡張機能インストール](./images/vb-extensionpack.png)
+  ![VirtualBox拡張機能インストール](/images/vb-extensionpack.png)
 
 ### 2. Kali Linux のtorrentファイルをダウンロード
 - https://www.kali.org/get-kali/#kali-platforms にアクセス
