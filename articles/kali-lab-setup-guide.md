@@ -26,25 +26,24 @@ published: false # 公開設定（falseにすると下書き）
 ### 1. VirtualBoxのインストール
 - https://www.virtualbox.org/wiki/Downloads にアクセス
 - Windows hosts をクリックしインストーラーをダウンロード
-  ![alt text](./images/VirtualBoxWindowshosts.png)
+  ![VirtualBox公式ダウンロード](./images/VirtualBoxWindowshosts.png)
 - Accept and download をクリックしExtension Packもダウンロード
-  ![alt text](./images/VirtualBoxWindowsAcceptAndDownload.png)
+  ![VirtualBox拡張機能ダウンロード](./images/VirtualBoxWindowsAcceptAndDownload.png)
 - ダウンロードした VirtualBox-7.2.2-170484-Win.exe を実行
 - VirtualBoxを起動しExtension Packもインストール
-  ![alt text](./images/VirtualBoxExtensionPack.png)
-  *Extension Packのインストール*
+  ![VirtualBox拡張機能インストール](./images/VirtualBoxExtensionPack.png)
 
 ### 2. Kali Linux のtorrentファイルをダウンロード
 - https://www.kali.org/get-kali/#kali-platforms にアクセス
 - Virtual Machines をクリック
-  ![alt text](./images/KaliLinux.png)
+  ![KaliLinux公式ダウンロード](./images/KaliLinux.png)
 - VirtualBoxのtorrent をクリックし kali-linux-2025.3-virtualbox-amd64.7z.torrent をダウンロード
-  ![alt text](./images/KaliLinuxTorrent.png)
+  ![KaliLinuxTorrentファイルダウンロード](./images/KaliLinuxTorrent.png)
 
 ### 3. uTorrentのインストール
 - https://www.utorrent.com/intl/ja/downloads/win/ にアクセス
 - uTorrent Classicの無料ダウンロード をクリック
-  ![alt text](./images/uTorrent.png)
+  ![uTorrent公式ダウンロード](./images/uTorrent.png)
 - ダウンロードした utorrent_installer.exe を実行
 - Avast は Skip All をクリック
 - Choose Install Options はすべてチェックを外しました(お好みで)
@@ -75,14 +74,14 @@ uTorrentが常時シード状態となることや、アプリをアップデー
 
 :::message alart
 Windows標準機能では.7zファイルを扱えずエラーとなるため、7-zipを使用しました
-![alt text](./images/7zError.png)
+![0x8000FFFF:致命的なエラー](./images/7zError.png)
 *致命的なエラー*
 :::
 
 ### 7. VirtualBoxに仮想マシン(Kali Linux)を追加する
 - Oracle VirtualBoxマネージャー を開く
 - 開く をクリック
-![alt text](./images/VirtualBoxManagerOpen.png)
+![VirtualBoxマネージャー](./images/VirtualBoxManagerOpen.png)
 - 展開した kali-linux-2025.3-virtualbox-amd64.vbox を開く
 - 取り込まれたマシンの 設定 をクリック
 
