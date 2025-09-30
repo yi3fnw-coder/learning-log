@@ -165,11 +165,13 @@ VirtualBox のマニュアルや公式フォーラムでは：
  6.Japanese を選択後 ↑ をクリックし、Japaneseを一番上に移動する
 ![alt text](/images/kali-lab-setup-guide/kl-keyboard-layout-japanese-up.png)
  7.使用しないキーボードレイアウトを選択後 -Remove をクリックし削除
-<!-- ![alt text](/images/kali-lab-setup-guide/kl-keyboard-layout-english-remove.png)
+![alt text](/images/kali-lab-setup-guide/kl-keyboard-layout-english-remove.png)
+<!-- 
  8.Use system defaults をオンにする
 ![alt text](/images/kali-lab-setup-guide/kl-keyboard-layout-on.png)
  9.ポップアップ画面で OK をクリック
-![alt text](/images/kali-lab-setup-guide/kl-keyboard-layout-ok.png) -->
+![alt text](/images/kali-lab-setup-guide/kl-keyboard-layout-ok.png)
+-->
  8.×close をクリック
 ![alt text](/images/kali-lab-setup-guide/kl-keyboard-layout-close.png)
 
